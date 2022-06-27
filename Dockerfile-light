@@ -62,14 +62,14 @@ ENTRYPOINT ["archivy"]
 CMD ["run"]
 
 # Labels
-LABEL org.opencontainers.image.vendor="Uzay G" \
+LABEL org.opencontainers.image.vendor="SGC" \
       org.opencontainers.image.authors="https://github.com/Uzay-G" \
       org.opencontainers.image.title="Archivy" \
       org.opencontainers.image.licenses="MIT" \
-      org.opencontainers.image.url="https://github.com/archivy/archivy-docker" \
-      org.label-schema.vcs-url="https://github.com/archivy/archivy-docker" \
-      org.opencontainers.image.documentation="https://github.com/archivy/archivy-docker/" \
-      org.opencontainers.image.source="https://github.com/archivy/archivy-docker/blob/main/Dockerfile-light" \
+      org.opencontainers.image.url="https://github.com/SGC-SG0/archivy-docker" \
+      org.label-schema.vcs-url="https://github.com/SGC-SG0/archivy-docker" \
+      org.opencontainers.image.documentation="https://github.com/SGC-SG0/archivy-docker/" \
+      org.opencontainers.image.source="https://github.com/SGC-SG0/archivy-docker/blob/main/Dockerfile-light" \
       org.opencontainers.image.description="Archivy is a self-hosted knowledge repository that \
       allows you to safely preserve useful content that contributes to your knowledge bank." \
       org.opencontainers.image.created=$BUILD_DATE \
@@ -79,5 +79,5 @@ LABEL org.opencontainers.image.vendor="Uzay G" \
       org.opencontainers.image.version=$VERSION \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0" \
-      software.author.repository="https://github.com/archivy/archivy" \
+      software.author.repository="https://github.com/SGC-SG0/archivy" \
       software.release.version=$VERSION
